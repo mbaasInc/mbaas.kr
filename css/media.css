@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+@media screen and (min-width:2000px) {
+  .main-sec06::after {
+    background: url(../images/back-cloud.png) 50% 0% no-repeat !important;
+  }
+}
+
+@media screen and (max-width:1800px) {
+  header, .visualWrap {
+    padding: 0 200px;
+  }
+  .sectionP {
+    padding: 70px 200px 50px;
+  }
+  footer {
+    padding: 50px 200px;
+  }
+}
+
+@media screen and (max-width:1700px) {
+  header,.visualWrap {
+    padding: 0 150px;
+  }
+  .sectionP {
+    padding: 120px 150px 0;
+  }
+  footer {
+    padding: 50px 150px;
+  }
+}
+
+@media screen and (max-width:1600px) {
+  header {
+    padding: 0 40px;
+  }
+  .sectionP {
+    padding: 120px 100px 0;
+  }
+  .sectionP h2, .main2 h2, .main4 h2 {
+    font-size: 6rem;
+  }
+  .main2 .whyTxt p {
+    font-size: 2rem;
+  }
+  .main4-box > div {
+    justify-content: flex-start;
+  }
+  footer {
+    padding: 50px 100px;
+  }
+  .aboutWrap .subTit,
+  .sectionP .subTit {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .aboutImgWrap {
+    margin-top: 20px;
+  }
+  .messageWrap p {
+    font-size: 1.8rem;
+  }
+  .dashWrap {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+  }
+  .dashWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .main-sec01 .contain {
+    margin: 150px 80px 0;
+  }
+  .main-sec05 .contain ul li .story-img {
+    width: 400px !important;
+    height: 230px !important;
+  }
+  .contain, .contain1 {
+    width: calc(100% - 60px) !important;
+  }
+}
+
+@media screen and (max-width:1440px) {
+  .contain, .contain1 {
+    width: calc(100% - 50px) !important;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .gnb {
+    gap: 20px;
+  }
+  .sectionP {
+    padding: 100px 80px;
+  }
+  .contactWrap {
+    padding-top: 30px;
+  }
+  .contactWrap div:first-child {
+    width: 70%;
+    height: 400px;
+  }
+  .contactWrap div:last-child {
+    width: 30%;
+  }
+  .messageWrap p {
+    font-size: 1.6rem;
+  }
+  .sectionP h2, .main2 h2, .main4 h2 {
+    font-size: 4rem;
+  }
+  .main4 .boxTop,  .main4 .boxBottom {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .main4 .boxBottom { 
+    margin-top: 20px;
+  }
+  .main4 .boxBottom dl {
+    order: 1;
+  }
+  .main4 .serviceImgbox {
+    width: 300px;
+    height: 180px;
+  }
+  .main4-box > div {
+    display: block;
+  }
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100px;
+  }
+  .main-sec05 .contain ul li .story-img {
+    width: 330px !important;
+    height: 200px !important;
+  }
+  .contain, .contain1 {
+    width: calc(100% - 60px);
+  }
+  .main-sec01{
+    height: 100vh;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width:1080px) {
+  .ham { 
+    display: block;
+  }
+  .gnb {
+    display: none;
+  }
+  .infraWrap h2 {
+    width: auto;
+  }
+  .infraWrap {
+    padding: 0 80px;
+  }
+  .sectionP h2, .main2 h2, .main4 h2 {
+    font-size: 3rem;
+  }
+  .infra {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .visualTit h2 {
+    font-size: 3.2rem;
+  }
+  .visualWrap p {
+    font-size: 1.6rem;
+  }
+  .messageWrap {
+    display: block;
+  }
+ .messageWrap .messageImg  {
+    width: 100%;
+    height: 650px;
+  }
+  .messageTxt {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .messageTxt p {
+    margin-bottom: 0;
+  }
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    position: absolute;
+    right: 90px;
+    width: 40px;
+  }
+  .main-sec03 .contain{
+    flex-direction: column;
+}
+  .main-sec01 .contain {
+    margin: 150px auto 0;
+  }
+  .main-sec05 .contain ul li .story-img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:960px) {
+  header {
+    height: 80px;
+  }
+  header h1 img {
+    width: 90px;
+  }
+  .infra {
+    margin-top: 30px;
+  }
+  .infra li {
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: none;
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+  .mapWrap {
+    display: block;
+  }
+  .main3 .map {
+    height: 40vh;
+  }
+  .mapTxt {
+    width: 100%;
+  }
+  .main3 h2 {
+    margin-bottom: 10px;
+  }
+  .btn_gotop {
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+  }
+  .history ul {
+    padding: 20px 0 5px;
+  }
+  .footer-wrap .contain1 {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .mgnb {
+    padding: 80px 30px;
+  }
+  .closeBtn {
+    right: 50px;
+  }
+  header ,.visualWrap {
+    padding: 0 50px;
+  }
+  section {
+    margin: 0;
+  }
+  .sectionP {
+    padding: 130px 50px 50px;
+  }
+  section:nth-child(2) .sectionP {
+    padding: 0 50px 100px;
+  }
+  footer {
+    padding: 50px;
+  }
+  .main2 {
+    padding: 0 50px;
+  }
+  .aboutWrap .subTit, .sectionP .subTit {
+    font-size: 1.6rem;
+  }
+  .contactWrap {
+    display: block;
+    padding: 10px 0 0;
+  }
+  .contactWrap div:first-child, .contactWrap div:last-child {
+    width: 100%;
+  }
+  .contactWrap .address dl {
+    margin-bottom: 0;
+  }
+  .main4 .boxTop dl dd, .main4 .boxBottom dl dd {
+    width: 300px;
+  }
+ .typing-demo {
+   animation: none;
+   width: 80vw;
+   white-space: normal;
+   padding-bottom: 10px;
+   border-right: none;
+   overflow: initial;
+ }
+ .doragiWrap h3 {
+  font-size: 2rem;
+}
+.doragiWrap p {
+  font-size: 1.6rem;
+}
+.appImg li, .appImg li:first-child {
+  height: auto;
+}
+.dashWrap {
+  height: auto;
+ }
+.contactWrap div:first-child {
+  height: 40vh;
+ }
+ .typing {
+  font-size: 20px !important;
+}
+.footer-wrap .contain, .footer-wrap .contain1 {
+  flex-direction: column;
+}
+.footer-left {
+  display: block;
+}
+.footer-left img {
+  padding-bottom: 20px;
+}
+.footer-wrap {
+  padding: 50px 20px;
+}
+.footer-wrap .contain .footer-right, .footer-wrap .contain1 .footer-right {
+  margin-top: 2em;
+}
+.footer-wrap .contain .footer-right a, .footer-wrap .contain1 .footer-right a {
+  text-align: center;
+}
+.projectWrap {
+  justify-content: center;
+}
+.main-sec05 .contain ul li .story-img {
+  height: 300px !important ;
+}
+}
+
+@media screen and (max-width:430px) {
+  header ,.visualWrap, .infraWrap {
+    padding: 0 24px;
+  }
+  header {
+    height: 70px;
+  }
+  header h1 img {
+    width: 75px;
+  }
+  footer {
+    padding: 24px;
+    display: block;
+  }
+  footer h4 {
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+  }
+  footer p {
+    font-size: 1.4rem;
+  }
+  .footerLeft div, .footerRight div {
+    padding-bottom: 10px;
+  }
+  .main2 {
+    padding: 0 24px;
+  }
+  .sectionP {
+    padding: 100px 20px 40px;
+  }
+  section:nth-child(2) .sectionP {
+    padding: 0 20px 100px;
+  }
+  .sectionP h2, .main2 h2, .main4 h2 {
+    font-size: 3rem;
+    margin-bottom: 10px !important;
+  }
+  .historyline h2 {
+    font-size: 2rem !important;
+    margin-bottom : 10px !important
+  }
+  .main4-box {
+    margin-top: 20px;
+  }
+  .main4 .boxTop, .main4 .boxBottom {
+    display: block;
+  }
+  .main4 .boxTop dl dt, .main4 .boxBottom dl dt {
+    font-size: 1.6rem;
+  }
+  .main4 .boxTop dl dd, .main4 .boxBottom dl dd {
+    font-size: 1.4rem;
+  }
+
+  .projectWrap li .projectImg {
+    width: 280px;
+    height: 280px;
+  }
+  .main4 .serviceImgbox {
+    width: calc(100vw - 48px);
+    height: 130px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .appImg {
+    padding-top: 20px;
+  }
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    right: 70px;
+  }
+  .typing {
+    font-size: 16px !important;
+  }
+  .main-sec05 .contain ul li .story-img {
+    height: 280px !important ;
+  }
+}

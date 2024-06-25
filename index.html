@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="naver-site-verification" content="aece7e7bc6bcb5ba57252ed18cecbd90cd4123dc" />
+    <title>(주)엠바스</title>
+    <meta name="description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="(주)엠바스">
+    <meta property="og:description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:image" content="img/opengragh.png">
+    <meta property="og:url" content="https://www.mbaas.kr/">
+    <!-- CSS -->
+    <base href="" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="shortcut icon" href="./img/faviconB.ico" type="image/x-icon" />
+    <link rel=stylesheet href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.css" />
+    <link rel=stylesheet href="https://unpkg.com/bootstrap-select@1.13.8/dist/css/bootstrap-select.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link rel="stylesheet" href="css/main-css.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <!-- JS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script data-src="https://unpkg.com/popper.js@1.14.7/dist/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js" data-src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.min.js" ></script>
+    <script src="https://unpkg.com/bootstrap-select@1.13.8/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/slick.js"></script>
+  </head>
+  <body>
+    
+    <header id="header">
+      <h1>
+        <a href="index.html">
+          <img class="on" src="./img/logo_colorW.png" alt="엠바스 로고" />
+          <img class="off" src="./img/logo_color.png" alt="엠바스 로고" />
+        </a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+            <li><a href="html/about.html">ABOUT</a></li>
+            <li><a href="html/ceomessage.html">CEO MESSAGE</a></li>
+            <li><a href="html/project.html">PROJECT</a></li>
+            <li><a href="html/story.html">STORY</a></li>
+            <li><a href="html/contact.html">CONTACT</a></li>
+            <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img class="on" src="img/link_W.png"></img><img class="off" src="img/link_B.png"></img></a></li>
+        </ul>
+        <button class="ham"><img class="hamB" src="img/icon_menu.png" alt="메뉴 아이콘"><img class="hamW" src="./img/icon_menuW.png" alt="메뉴 아이콘"></button>
+        <div class="mgnb">
+          <ul>
+            <li><a href="html/about.html">ABOUT</a></li>
+            <li><a href="html/ceomessage.html">CEO MESSAGE</a></li>
+            <li><a href="html/project.html">PROJECT</a></li>
+            <li><a href="html/story.html">STORY</a></li>
+            <li><a href="html/contact.html">CONTACT</a></li>
+            <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img src="img/link_B.png"></img></a></li>
+          </ul>
+          <button class="closeBtn"><img src="img/icon_close.png" alt="닫기버튼 이미지"></button>
+        </div>
+      </nav>
+        <select class="lang selectpicker my-image-selectpicker drop-down" id="language_select" onchange="if(this.value) location.href=(this.value);">
+            <option selected  data-content="<img src='images/KR.png'> KOR ">KOR</option>
+            <option value="html/en/indexEN.html" data-content="<img src='images/US.png'> ENG " >ENG</option>
+        </select>
+    </header>
+
+    <div class="wrap scroll-container">
+      <div class="main-sec01">
+          <div class="contain">
+              <div class="main-sec01-title">
+                  <h2 id="title">Mobile Beyond Ai App Service</h2>
+                  <p id="content">App 창업자 및 중소사업자를 위한 mBaaS 플랫폼</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="main-sec02">
+          <div class="typing-txt">
+             <ul>
+                 <li id="reserve">펜션예약앱</li>
+                 <li id="hobby">취미앱</li>
+                 <li id="coffee">커피숍 예약앱</li>
+                 <li id="festival">지역축제 홍보앱</li>
+             </ul>
+          </div>
+          <div class="typing-wrap">
+              <div class="typing">
+              </div>
+          </div>
+          <div class="phones">
+              <div class="phone"><img src="./images/phone01.png" alt=""></div>
+              <div class="phone"><img src="./images/phone02.png" alt=""></div>
+              <div class="phone"><img src="./images/phone03.png" alt=""></div>
+              <div class="phone"><img src="./images/phone04.png" alt=""></div>
+          </div>
+      </div>
+      
+      <div class="main-sec03">
+         <div class="contain">
+              <div class="main-sec03-half img">
+                  <img src="./images/main-sec02-img.png" alt="">
+              </div>
+              <div class="main-sec03-half">
+                  <h2><span>Why</span> mBaas?</h2>
+                  <p id="why">모바일 경험이 없는 사업자를 위한 쉽고 간편한 앱개발 Needs를 제공합니다. LowCode 기반의 App 플랫폼 제공으로 개발원가를 절감하실 수 있습니다. 앱 템플릿 선택으로 짧은 시간내 서비스 제공이 가능합니다. 앱개발을 위해 필요한 복잡한 기획서를 보다 간편하게 확인 할 수 있습니다.</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="main-sec04">
+          <div class="contain">
+              <h2 id="service">앱에 필요한 다양한 부가서비스를 쉽게 간편하게 만나 볼 수 있습니다</h2>
+              <ul class="icons">
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico01.png" alt=""></div>
+                      <h5 id="serviceTit1">간편인증</h5>
+                      <p id="serviceCon1">문자, 카카오, 네이버 Pass등 손쉬운 인증 서비스</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico02.png" alt=""></div>
+                      <h5 id="serviceTit2">Push 전송</h5>
+                      <p id="serviceCon2">모바일 Push 전송서비스</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico03.png" alt=""></div>
+                      <h5 id="serviceTit3">UMS 전송</h5>
+                      <p id="serviceCon3">시간, 장소, 단말기 상관없이 언제 어디든지 메세지 통합 관리 서비스</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico04.png" alt=""></div>
+                      <h5 id="serviceTit4">카카오 알림톡 전송</h5>
+                      <p id="serviceCon4">카카오 연동으로 알림톡 전송기능</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico05.png" alt=""></div>
+                      <h5 id="serviceTit5">위치기반 서비스</h5>
+                      <p id="serviceCon5">GPS를 통한 사용자 위치 기반 서비스 가능</p>
+                  </li>
+                  <li></li>
+                  <li></li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico06.png" alt=""></div>
+                      <h5 id="serviceTit6">PG 대행 서비스</h5>
+                      <p id="serviceCon6">결제시스템 연동 서비스</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico07.png" alt=""></div>
+                      <h5 id="serviceTit7">회원관리</h5>
+                      <p id="serviceCon7">대시보드를 통한 회원관리</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico08.png" alt=""></div>
+                      <h5 id="serviceTit8">공공 Big Data 제공</h5>
+                      <p id="serviceCon8">공공 Big Data 제공</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico09.png" alt=""></div>
+                      <h5 id="serviceTit9">앱 아이콘 제작</h5>
+                      <p id="serviceCon9">Ai를 통한 앱아이콘 제작</p>
+                  </li>
+                  <li>
+                      <div class="icon"><img src="./images/main-sec03-ico10.png" alt=""></div>
+                      <h5 id="serviceTit10">교차광고 서비스</h5>
+                      <p id="serviceCon10">교차광고를 통한 마케팅 홍보 서비스</p>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="main-sec05">
+          <div class="contain">
+              <h2>mBaas <span>Story</span></h2>
+              <ul>
+                <li>
+                    <a href="./html/story_240420.html">
+                        <div class="story-img"><img src="img/story_240420.png" alt=""></div>
+                        <h4 id="newsTit1">신용보증기금 "리틀펭귄" 엠바스 선정</h4>
+                        <p>2024.04.20</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.newsis.com/view/?id=NISX20231213_0002556428&cID=10811&pID=10800" target="_blank">
+                        <div class="story-img"><img src="img/story_20231213.png" alt=""></div>
+                        <h4 id="newsTit1">1인 1앱 시대 온다…엠바스, 앱 개발 플랫폼 'AiApp' 출시</h4>
+                        <p>2023.12.13</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sedaily.com/NewsView/29YHVH6IOG">
+                        <div class="story-img"><img src="img/story_20231213-1.png" alt=""></div>
+                        <h4 id="newsTit2">엠바스, 앱 개발 플랫폼 ‘AiApp’ 출시…1인 1앱 시대 선도</h4>
+                        <p>2023.12.13</p>
+                    </a>
+                </li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="main-sec06">
+          <div class="contain">
+              <h2 id="infra">자체 인프라를 통한 통합 솔루션으로 애플리케이션 개발의 최적화된 환경을 제공해드립니다</h2>
+             <ul>
+                 <li>
+                     <div class="sec-ico"></div>
+                     <p id="infra1">데이터베이스</p>
+                 </li>
+                 <li>
+                     <div class="sec-ico"></div>
+                     <p id="infra2">알림관리</p>
+                 </li>
+                 <li>
+                     <div class="sec-ico"></div>
+                     <p id="infra3">저장소관리</p>
+                 </li>
+                 <li>
+                     <div class="sec-ico"></div>
+                     <p id="infra4">트래픽관리</p>
+                 </li>
+                 <li>
+                     <div class="sec-ico"></div>
+                     <p id="infra5">파일관리</p>
+                 </li>
+             </ul>
+          </div>
+      </div>
+      
+      <div class="main-sec07">
+          <div class="main-sec07-half">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.5659076847792!2d129.07595027392682!3d35.17826703327325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356893536a42c4ad%3A0x66ed1c0ca0933b96!2z67aA7IKw6rSR7Jet7IucIOyXsOygnOq1rCDsl7DsoJzroZwgMjQ!5e0!3m2!1sko!2skr!4v1717556947247!5m2!1sko!2skr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="main-sec07-half spec">
+              <div class="main-sec07-half-box">
+                  <h3 id="map">찾아오시는 길</h3>
+                  <ul>
+                      <li>
+                          <p id="office1">본사</p>
+                          <h4 id="office2">부산광역시 연제구 연제로 24, 204호 </h4>
+                      </li>
+                      <li>
+                          <p id="center1">R&D 센터</p>
+                          <h4 id="center2">부산광역시 연제구 연제로 24, 203호</h4>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      
+    </div>
+
+    <footer class="footer-wrap">
+        <div class="contain1">
+            <div class="footer-left" id="address">
+                <img src="images/footer-logo.svg" alt="로고 이미지">
+                <p>주소 : 부산광역시 연제구 연제로 24, 204호  | 이메일 : mbaas.help@gmail.com<br>
+                    대표 : 김정현 | 사업자번호 : 128-88-02089</p>
+            </div>
+            <div class="footer-right">
+                <div class="site">
+                    <a href="https://www.aiapp.help/" target="_blank">서비스포털<br><span>www.aiapp.help</span></a>
+                </div>
+                <ul class="sns">
+                    <li class="youtube"><a href="https://www.youtube.com/@TV-re8xn" target="_blank"></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/people/mBaaSInc/100078637600952/" target="_blank"></a></li>
+                    <li class="blog"><a href="https://blog.naver.com/mbaas" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <button class="btn_gotop" type="button" onclick="$('html, body').stop().animate( { scrollTop : 0 }, 1000 ); ">Top</button>
+  </body>
+
+  
+</html>
+<script>
+$(document).ready(function(){
+    $('.phones').slick({
+        dots: false,
+        infinite: true,
+        speed: 100,
+        fade: true,
+        arrows: false,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+    });
+});
+$(function () {
+  $(window).scroll(function () {
+    var navbar = $(this).scrollTop();
+    console.log(navbar);
+    var $header = $("header");
+    if (navbar > 100) {
+      $header.addClass("activated");
+    } else {
+      $header.removeClass("activated");
+    }
+  });
+});
+
+  /* 셀렉트 이미지 */
+  $(function(){
+    $('.selectpicker').selectpicker();
+  });
+
+</script>

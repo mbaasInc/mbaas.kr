@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="naver-site-verification" content="aece7e7bc6bcb5ba57252ed18cecbd90cd4123dc" />
+    <title>(주)엠바스</title>
+    <meta name="description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="(주)엠바스">
+    <meta property="og:description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:image" content="../img/opengragh.png">
+    <meta property="og:url" content="https://www.mbaas.kr/">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" />
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-select@1.13.8/dist/css/bootstrap-select.css"/>
+    <link rel="shortcut icon" href="../img/faviconB.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/media.css"/>
+    <!-- JS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script data-src="https://unpkg.com/popper.js@1.14.7/dist/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js" data-src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-select@1.13.8/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/17.0.18/i18next.min.js" type="text/javascript"></script>
+    <script src="../js/common.js"></script>
+  </head>
+  <body>
+    <header id="headerSub">
+      <h1>
+        <a href="../index.html"
+          ><img class="on" src="../img/logo_colorW.png" alt="엠바스 로고" />
+          <img class="off" src="../img/logo_color.png" alt="엠바스 로고"/>
+        </a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="ceomessage.html">CEO MESSAGE</a></li>
+          <li><a href="project.html">PROJECT</a></li>
+          <li><a href="story.html">STORY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img class="on" src="../img/link_W.png"></img><img class="off" src="../img/link_B.png"></img></a></li>
+        </ul>
+        <button class="ham">
+          <img src="../img/icon_menu.png" alt="메뉴 아이콘" />
+        </button>
+        <div class="mgnb">
+          <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="ceomessage.html">CEO MESSAGE</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="story.html">STORY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img src="../img/link_B.png"></img></a></li>
+          </ul>
+          <button class="closeBtn"><img src="../img/icon_close.png" alt="닫기버튼 이미지"></button>
+        </div>
+      </nav>
+      <select class="lang selectpicker my-image-selectpicker drop-down" id="language_select" onchange="if(this.value) location.href=(this.value);">
+        <option value="../index.html" data-content="<img src='../images/KR.png'> KOR ">KOR</option>
+        <option value="en/indexEN.html" data-content="<img src='../images/US.png'> ENG " src="">ENG</option>
+    </select>
+    </header>
+
+
+    <div class="wrap scroll-container">
+      <section class="main1 ceoMessage" pageNum="1">
+        <div class="sectionP">
+          <h2>CEO Message<span>.</span></h2>
+          <div class="messageWrap">
+            <div class="messageImg">
+              <img src="../img/ceo2.jpg" alt="대표님 이미지">
+            </div>
+            <div class="messageTxt">
+              <p id="line1">안녕하세요. 엠바스 사업총괄 대표 김정현입니다.</p>
+              <br/>
+              <p id="line2">28년 동안 IT 산업에서 종사하면서 저는 많은 창업자들이 혁신적인 아이디어를 가지고 있음에도 불구하고, 기술적인 장벽과 어려움으로 인해 좌절하는 모습을 많이 보았습니다. 이러한 경험에서 출발한 엠바스의 미션은 바로 여기에 있습니다.</p>
+              <br/>
+              <p id="line3">우리의 목표는 아이디어가 있는 모든 분들에게 기술적인 장벽을 없애고, 자신의 아이디어를 현실로 만들 수 있는 도구와 플랫폼을 제공하는 것입니다. 엠바스는 앱 창업자들이 훨씬 쉽게 앱을 개발하고 성공할 수 있는 토대를 제공하고자 합니다.</p>
+              <br/>
+              <p id="line4">더 나아가, 엠바스는 불합리한 IT 개발 구조와 하도급 문제를 해결하고자 합니다. 우리는 투명하고 공정한 환경에서 개발자들이 성공할 수 있도록 지원하고, IT 산업의 변화를 주도하며 사회에 긍정적인 영향을 미치는데 기여하고자 합니다.</p>
+              <br/>
+              <p id="line5">저희 회사의 슬로건은 “직원과 가족과 고객”이 행복한 회사입니다.</p>
+              <br/>
+              <p id="line6">엠바스와 함께, 여러분의 아이디어가 더 많은 이들에게 도움이 되고, 혁신의 원동력이 되길 희망합니다.</p>
+              <br/>
+              <p id="line7">감사합니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="footer-wrap">
+      <div class="contain1">
+          <div class="footer-left" id="address">
+              <img src="../images/footer-logo.svg" alt="로고 이미지">
+              <p>주소 : 부산광역시 연제구 연제로 24, 204호  | 이메일 : mbaas.help@gmail.com<br>
+                  대표 : 김정현 | 사업자번호 : 128-88-02089</p>
+          </div>
+          <div class="footer-right">
+              <div class="site">
+                  <a href="https://www.aiapp.help/" target="_blank">서비스포털<br><span>www.aiapp.help</span></a>
+              </div>
+              <ul class="sns">
+                  <li class="youtube"><a href="https://www.youtube.com/@TV-re8xn" target="_blank"></a></li>
+                  <li class="facebook"><a href="https://www.facebook.com/people/mBaaSInc/100078637600952/" target="_blank"></a></li>
+                  <li class="blog"><a href="https://blog.naver.com/mbaas" target="_blank"></a></li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+    <button class="btn_gotop" type="button" onclick="$('html, body').stop().animate( { scrollTop : 0 }, 1000 ); ">Top</button>
+  </body>
+
+  <script>
+  /* 셀렉트 이미지 */
+  $(function(){
+    $('.selectpicker').selectpicker();
+  });
+  </script>
+</html>

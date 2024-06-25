@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="naver-site-verification" content="aece7e7bc6bcb5ba57252ed18cecbd90cd4123dc" />
+    <title>(주)엠바스</title>
+    <meta name="description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="(주)엠바스">
+    <meta property="og:description" content="App 창업자 및 중소사업자를 위한 mBaaS 플랫폼">
+    <meta property="og:image" content="../img/opengragh.png">
+    <meta property="og:url" content="https://www.mbaas.kr/">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" />
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.3.1/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-select@1.13.8/dist/css/bootstrap-select.css"/>
+    <link rel="shortcut icon" href="../img/faviconB.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <!-- JS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script data-src="https://unpkg.com/popper.js@1.14.7/dist/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js" data-src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-select@1.13.8/dist/js/bootstrap-select.min.js"></script>
+    <script src="../js/common.js"></script>
+  </head>
+  <body>
+    <header id="headerSub">
+      <h1>
+        <a href="../index.html"
+          ><img class="on" src="../img/logo_colorW.png" alt="엠바스 로고" />
+          <img class="off" src="../img/logo_color.png" alt="엠바스 로고" />
+        </a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="ceomessage.html">CEO MESSAGE</a></li>
+          <li><a href="project.html">PROJECT</a></li>
+          <li><a href="story.html">STORY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img class="on" src="../img/link_W.png"></img><img class="off" src="../img/link_B.png"></img></a></li>
+        </ul>
+        <button class="ham">
+          <img src="../img/icon_menu.png" alt="메뉴 아이콘" />
+        </button>
+        <div class="mgnb">
+          <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="ceomessage.html">CEO MESSAGE</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="story.html">STORY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://www.aiapp.help/" target="_blank">AiApp<img src="../img/link_B.png"></img></a></li>
+          </ul>
+          <button class="closeBtn">
+            <img src="../img/icon_close.png" alt="닫기버튼 이미지" />
+          </button>
+        </div>
+      </nav>
+      <select class="lang selectpicker my-image-selectpicker drop-down" id="language_select" onchange="if(this.value) location.href=(this.value);">
+        <option value="../index.html" data-content="<img src='../images/KR.png'> KOR ">KOR</option>
+        <option value="en/indexEN.html" data-content="<img src='../images/US.png'> ENG " src="">ENG</option>
+    </select>
+    </header>
+
+    <div class="wrap scroll-container">
+      <section class="aboutWrap" pageNum="1">
+        <div class="sectionP">
+          <h2>ABOUT<span>.</span></h2>
+          <p class="subTit" id="subTit">
+            엠바스는 앱 창업자 및 중소사업자를 위해 클라우드 기반 mBaaS 플랫폼과
+            앱 템플릿을 제공하여 고객이 빠르게 앱 개발을 진행하고, 저렴한
+            비용으로 가입자를 확보하고, 가입자 확보를 통해 다양한 부가서비스로
+            수익을 창출할 수 있는 가치사슬 플랫폼을 지향합니다.
+          </p>
+          <div class="aboutImgWrap">
+            <img src="../img/aboutImg.jpg" alt="이미지1" />
+          </div>
+        </div>
+      </section>
+
+      <section class="main1" pageNum="2">
+        <div class="sectionP">
+          <div class="historyWrap">
+            <h2 id="history">엠바스가 걸어온 길</h2>
+            <div class="history">
+              <div class="historyline">
+                <h2>2024</h2>
+                <ul>
+                  <li>
+                    <h5>06</h5>
+                    <div>
+                      <p>Seed 투자</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>05</h5>
+                    <div>
+                      <p>신용보증기금 리틀펭귄 보증 10억 선정</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>03</h5>
+                    <div>
+                      <p>한국발명진흥회 "직무발명보상 우수기업" 인증</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>02</h5>
+                    <div>
+                      <p>MWC2024 4YFN IT 전시회 참가</p>
+                    </div>
+                  </li>
+                </ul>
+                <h2>2023</h2>
+                <ul>
+                  <li>
+                    <h5>12</h5>
+                    <div>
+                      <p>가족친화기업 인증</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>09</h5>
+                    <div>
+                      <p id="history230901">2023 부산 우수기업 채용박람회 참여</p>
+                      <p id="history230902">창업성장기술개발사업 디딤돌 사업 선정</p>
+                      <p id="history230903">부산 벤처창업 ESG 선도기업 선정</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>07</h5>
+                    <div>
+                      <p id="history2307">여성친화기업 및 여성고용유지지원 협약</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>05</h5>
+                    <p  id="history2305" class="strong">초기창업패키지 사업자 선정</p>
+                  </li>
+                  <li>
+                    <h5>04</h5>
+                    <div>
+                      <p>부산시 기술창업인큐베이팅 지원사업 선정</p>
+                      <p>IP나래 선정, 출원 1건 (한국발명진흥원)</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="historyline">
+                <h2>2022</h2>
+                <ul>
+                  <li>
+                    <h5>12</h5>
+                    <p id="history2212">벤처기업 혁신성장유형 인증</p>
+                  </li>
+                  <li>
+                    <h5>09</h5>
+                    <p id="history2209">성과공유기업 등록</p>
+                  </li>
+                  <li>
+                    <h5>08</h5>
+                    <div>
+                      <p id="history220801">서울대 병원 물류산업종사자 건강 모니터링 IoT App개발</p>
+                      <p id="history220802">GS 자이 SPMS(현장관리) 플랫폼 개발</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>05</h5>
+                    <div>
+                      <p id="history220501">KB 국민은행 퇴직연금 ETF App UI 개발</p>
+                      <p id="history220502">교육개발원 클라우드 VoD 서비스 Admin 개발</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>04</h5>
+                    <div>
+                      <p id="history220401">동물사랑실천운동연합 도라지 앱 런칭</p>
+                      <p id="history220402">엠바스 기업 부설 연구소 설립</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>03</h5>
+                      <div>
+                        <p id="history220301" class="strong">예비창업 최우수 사업자 선정</p>
+                        <p id="history220302">오픈모바일 SMS/LMS/카카오 알림톡 비즈메시지 서비스
+                          파트너 계약 (Tier 1)</p>
+                        <p id="history220303">유라클 모바일 하이브리드 플랫폼 (모피어스) 비즈니스 파트너
+                          계약 (Tier 1)</p>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="historyline">
+                <h2>2021</h2>
+                <ul>
+                  <li>
+                    <h5>12</h5>
+                    <div id="history2112">
+                      <p>서울교통공사 모바일 인프라 컨설팅 수주</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>11</h5>
+                    <div>
+                      <p id="history211101">IoT 기반 환경유해 인지 건강영향 빅데이터 플랫폼 구축
+                        개발</p>
+                      <p id="history211102">현대 자동차 도장 품질 완결 시스템 개발</p>
+                      <p id="history211103">한국선급 현장검사용 디지털 서비스 통합 모바일 플랫폼 구축</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>10</h5>
+                    <div>
+                      <p id="history211001">한국산업기술평가원 모바일 보안제품 납품</p>
+                      <p id="history211002">인공지능 학습용 데이터 실시간 클라우드 플랫폼 개발</p>
+                      <p id="history211003">경남은행 TOPS 계정계 시스템 재구축 개발</p>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>07</h5>
+                    <p id="history2107">엠바스 법인 설립</p>
+                  </li>
+                  <li>
+                    <h5>05</h5>
+                    <p id="history2105" class="strong">창업진흥원 예비창업자 선정</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="aboutWrap" pageNum="3">
+        <div class="sectionP"></div>
+      </section> -->
+    </div>
+
+    <footer class="footer-wrap">
+      <div class="contain1">
+          <div class="footer-left" id="address">
+              <img src="../images/footer-logo.svg" alt="로고 이미지">
+              <p>주소 : 부산광역시 연제구 연제로 24, 204호  | 이메일 : mbaas.help@gmail.com<br>
+                  대표 : 김정현 | 사업자번호 : 128-88-02089</p>
+          </div>
+          <div class="footer-right">
+              <div class="site">
+                  <a href="https://www.aiapp.help/" target="_blank">서비스포털<br><span>www.aiapp.help</span></a>
+              </div>
+              <ul class="sns">
+                  <li class="youtube"><a href="https://www.youtube.com/@TV-re8xn" target="_blank"></a></li>
+                  <li class="facebook"><a href="https://www.facebook.com/people/mBaaSInc/100078637600952/" target="_blank"></a></li>
+                  <li class="blog"><a href="https://blog.naver.com/mbaas" target="_blank"></a></li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+    <button
+      class="btn_gotop"
+      type="button"
+      onclick="$('html, body').stop().animate( { scrollTop : 0 }, 1000 ); "
+    >
+      Top
+    </button>
+  </body>
+</html>
+
+<script>
+  /* 셀렉트 이미지 */
+  $(function(){
+    $('.selectpicker').selectpicker();
+  });
+</script>

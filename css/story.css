@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.storyWrap h2 {
+  font-size: 9.6rem;
+  font-weight: 700;
+  color: #102354;
+}
+.storyWrap h2 span {
+  color: #F26724;
+}
+section {
+  height: auto !important;
+}
+.sectionS {
+  padding: 110px 240px 150px;
+}
+.storyWrap ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin-top: 30px;
+}
+.storyImg {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+.storyImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+.storyWrap ul li h4 {
+  width: 400px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.storyWrap ul li p {
+  font-size: 1.4rem;
+  color: #999;
+}
+
+/* 상세내용 */
+.storyConWrap {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.storyConWrap .sectionS {
+  padding: 110px 0 100px;
+}
+.storyConWrap h2 {
+  margin-top: 30px;
+  font-size: 4.8rem;
+  color: #000;
+}
+.storyConWrap img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+.storyConWrap p {
+  font-size: 2rem;
+  color: #333;
+}
+.storyConWrap span {
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1800px) {
+  .sectionS {
+    padding: 110px 200px 150px;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .sectionS {
+    padding: 110px 100px 150px;
+  }
+}
+@media screen and (max-width:1440px) {
+  .storyConWrap {
+    width: 800px;
+  }
+}
+@media screen and (max-width:1200px) {
+  .storyConWrap {
+    width: 600px;
+  }
+  .storyConWrap h2 {
+    font-size: 3.2rem;
+  }
+  .storyConWrap p {
+    font-size: 1.6rem;
+  }
+  .storyImg, .storyWrap ul li h4 {
+    width: 350px;
+  }
+}
+@media screen and (max-width:930px) {
+  .storyImg, .storyWrap ul li {
+    width: 100%;
+  }
+  .storyImg {
+    height: 350px;
+  }
+  .storyWrap ul li h4 {
+    width: auto;
+  }
+}
+@media screen and (max-width:768px) {
+  .sectionS {
+    padding: 110px 50px 150px;
+  }
+  .storyConWrap {
+    width: 80%;
+  }
+  .storyConWrap h2 {
+    margin-top: 0;
+    font-size: 2.4rem !important;
+  }
+  .storyConWrap .flex {
+    margin: 10px 0;
+  }
+  .storyConWrap img {
+    margin: 10px 0 ;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width:430px) {
+  .sectionS {
+    padding: 110px 30px 150px;
+  }
+}

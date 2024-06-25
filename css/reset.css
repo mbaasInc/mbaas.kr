@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* reset */
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  user-select: none;
+  font-family: 'Pretendard', sans-serif;
+}
+a {
+    text-decoration: none; 
+    color: #000;
+}
+html, body{
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,nav,menu{
+	-webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none
+}
+table { border-collapse: collapse; width: 100%;}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+ol, ul, li { 
+  list-style: none; 
+}
+
+.vTableCont :not(ol):not(ul):not(li) {
+  list-style: none;
+}
+input, textarea, button { 
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  appearance: none; 
+  border: none;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Pretendard', sans-serif;
+}
+input[type=submit] {
+  appearance: none;
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  border-style: none;
+}
+input[type=checkbox]{
+  vertical-align: middle
+}
+input[type=radio] {
+  appearance: none;
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+  vertical-align: middle
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="password"] {
+  font-family: sans-serif;
+}
+input[type="password"]::placeholder {
+  font-family: "'Pretendard', sans-serif";
+}
+select {
+  appearance: none; 
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
+}
+select::-ms-expand{ 
+  display: none /* 화살표 없애기 for IE10, 11*/
+}
+textarea::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
